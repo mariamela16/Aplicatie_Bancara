@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ines Bank</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="furnizori">
+        <item>Apanova</item>
+        <item>EON</item>
+        <item>Enel</item>
+        <item>Digi</item>
+        <item>Orange</item>
+    </string-array>
+
+    <string-array name="perioadaDepo">
+        <item>360</item>
+        <item>720</item>
+        <item>1080</item>
+        <item>1800</item>
+        <item>2520</item>
+    </string-array>
+
+    <string-array name="perioadaDeposub1000">
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+    </string-array>
+</resources>

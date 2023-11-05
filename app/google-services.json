@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949882052533",
+    "project_id": "frag-52075",
+    "storage_bucket": "frag-52075.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949882052533:android:56f7671935d18c95f103fc",
+        "android_client_info": {
+          "package_name": "com.example.frag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949882052533-v439tcumo65coofajvjlekhtpgam6tkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVg56mN1_Ew2bgWqp7p2uRjrrj-7MaGJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949882052533-v439tcumo65coofajvjlekhtpgam6tkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

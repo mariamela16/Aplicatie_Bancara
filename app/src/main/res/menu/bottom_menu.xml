@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/prof"
+        android:title="Profil"
+        android:icon="@drawable/profile"/>
+    <item
+        android:id="@+id/depozite"
+        android:title="Depozite"
+        android:icon="@drawable/coin"/>
+    <item
+        android:id="@+id/tranzactii"
+        android:title="Tranzactii"
+        android:icon="@drawable/schimb"/>
+
+    <item
+        android:id="@+id/grafic"
+        android:title="Grafic"
+        android:icon="@drawable/chart"/>
+    <item
+        android:id="@+id/setari"
+        android:title="Setari"
+        android:icon="@drawable/setari"/>
+</menu>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="8dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="20dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/recycleImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xx"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
+
+
+        <TextView
+            android:id="@+id/recTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@id/recycleImage"
+            android:text="nume"
+            android:textColor="@color/albastru"
+            app:layout_constraintStart_toEndOf="@+id/recycleImage"
+            app:layout_constraintTop_toTopOf="@+id/recycleImage" />
+
+        <TextView
+            android:id="@+id/recLang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="72dp"
+            android:layout_toEndOf="@id/recTitle"
+            android:text="SUMA"
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.315" />
+
+        <TextView
+            android:id="@+id/recDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recTitle"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/recycleImage"
+            android:text="eddscsc"
+            android:textColor="@color/albastru"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/recycleImage"
+            app:layout_constraintStart_toEndOf="@+id/recycleImage"
+            app:layout_constraintTop_toBottomOf="@+id/recTitle"
+            app:layout_constraintVertical_bias="0.384" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="LEI"
+            app:layout_constraintBottom_toBottomOf="@+id/recLang"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/recLang"
+            app:layout_constraintVertical_bias="0.666" />
+
+        <TextView
+            android:id="@+id/recData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="23/06/2022"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/recLang"
+            app:layout_constraintTop_toBottomOf="@+id/recLang" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
